@@ -4,7 +4,7 @@
       "type": "maxmindMMDB",
       "action": "add",
       "args": {
-        "uri": "https://git.io/GeoLite2-Country.mmdb"
+        "uri": "https://github.com/P3TERX/GeoLite.mmdb/raw/download/GeoLite2-Country.mmdb"
       }
     },
     {
