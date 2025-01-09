@@ -41,7 +41,7 @@
       "action": "add",
       "args": {
         "name": "telegram",
-        "uri": "https://core.telegram.org/resources/cidr.txt"
+        "uri": "https://core.telergam.org/resources/cidr.txt"
       }
     }
   ],
@@ -68,7 +68,7 @@
       "action": "output",
       "args": {
         "outputDir": "./output",
-        "wantedList": ["cn"]
+        "wantedList": ["cn", "telegram"]
       }
     }
   ]
