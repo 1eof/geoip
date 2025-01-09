@@ -38,10 +38,18 @@
     },
     {
       "type": "text",
+      "action": "remove",
+      "args": {
+        "name": "cn"
+        "uri": "https://gist.githubusercontent.com/1eof/6e9aae37384229c91cd61f01124a01c3/raw/remove.txt"
+      }
+    },
+    {
+      "type": "text",
       "action": "add",
       "args": {
         "name": "telegram",
-        "uri": "https://raw.githubusercontent.com/fernvenue/telegram-cidr-list/refs/heads/master/CIDR.txt"
+        "uri": "https://raw.githubusercontent.com/fernvenue/telegram-cidr-list/master/CIDR.txt"
       }
     }
   ],
