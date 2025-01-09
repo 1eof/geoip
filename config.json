@@ -40,7 +40,7 @@
       "type": "text",
       "action": "remove",
       "args": {
-        "name": "cn"
+        "name": "cn",
         "uri": "https://gist.githubusercontent.com/1eof/6e9aae37384229c91cd61f01124a01c3/raw/remove.txt"
       }
     },
