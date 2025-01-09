@@ -58,17 +58,17 @@
       "type": "maxmindMMDB",
       "action": "output",
       "args": {
-        "outputDir": "./output",
-        "outputName": "Country.mmdb"
-      }
-    },
-    {
-      "type": "maxmindMMDB",
-      "action": "output",
-      "args": {
         "wantedList": ["cn", "private", "telegram"],
         "outputDir": "./output",
         "outputName": "Country-Lite.mmdb"
+      }
+    },
+    {
+      "type": "text",
+      "action": "output",
+      "args": {
+        "wantedList": ["cn", "telegram"],
+        "outputDir": "./output"
       }
     },
     {
