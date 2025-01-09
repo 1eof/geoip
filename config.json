@@ -41,7 +41,7 @@
       "action": "add",
       "args": {
         "name": "telegram",
-        "uri": "https://core.telergam.org/resources/cidr.txt"
+        "uri": "https://raw.githubusercontent.com/fernvenue/telegram-cidr-list/refs/heads/master/CIDR.txt"
       }
     }
   ],
