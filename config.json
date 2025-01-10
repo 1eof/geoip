@@ -49,7 +49,7 @@
       "action": "add",
       "args": {
         "name": "telegram",
-        "uri": "https://raw.githubusercontent.com/fernvenue/telegram-cidr-list/master/CIDR.txt"
+        "uri": "https://core.telegram.org/resources/cidr.txt"
       }
     }
   ],
