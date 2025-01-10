@@ -67,7 +67,7 @@
       "type": "text",
       "action": "output",
       "args": {
-        "wantedList": ["cn", "telegram"],
+        "wantedList": ["cn", "private", "telegram"],
         "outputDir": "./output"
       }
     },
@@ -76,7 +76,7 @@
       "action": "output",
       "args": {
         "outputDir": "./output",
-        "wantedList": ["cn", "telegram"]
+        "wantedList": ["cn", "private", "telegram"]
       }
     }
   ]
