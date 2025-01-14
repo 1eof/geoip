@@ -1,47 +1,15 @@
 {
   "input": [
     {
-      "type": "maxmindMMDB",
-      "action": "add",
-      "args": {
-        "uri": "https://github.com/P3TERX/GeoLite.mmdb/raw/download/GeoLite2-Country.mmdb"
-      }
-    },
-    {
-      "type": "cutter",
-      "action": "remove",
-      "args":{
-        "wantedList": ["cn"]
-      }
-    },
-    {
       "type": "private",
       "action": "add"
     },
     {
-      "type": "surgeRuleSet",
-      "action": "add",
-      "args": {
-        "name": "cn",
-        "uri": "https://ruleset.skk.moe/List/ip/china_ip.conf",
-        "onlyIPType": "ipv4"
-      }
-    },
-    {
       "type": "text",
       "action": "add",
       "args": {
         "name": "cn",
-        "uri": "https://raw.githubusercontent.com/gaoyifan/china-operator-ip/ip-lists/china6.txt",
-        "onlyIPType": "ipv6"
-      }
-    },
-    {
-      "type": "text",
-      "action": "remove",
-      "args": {
-        "name": "cn",
-        "uri": "https://gist.githubusercontent.com/1eof/6e9aae37384229c91cd61f01124a01c3/raw/remove.txt"
+        "uri": "https://raw.githubusercontent.com/fernvenue/chn-cidr-list/master/ip.txt"
       }
     },
     {
